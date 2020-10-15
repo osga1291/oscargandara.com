@@ -1,38 +1,114 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+html {
+  scroll-behavior: smooth;
+}
+.wrapper{
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color:gray; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+
+}
+
+.main-page{
+  background-color: black;
+
+}
+.about-page{
+  background-color: black;
+}
+.wrapper nav{
+  color: whitesmoke;
+}
+.active :hover {
+  color :red;
+}
+
+.Paragraph{
+  color : red;
+}
+
+footer{
+  color:red;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text1{
+  font-family: 'Courier New', Courier, monospace;
+  color: greenyellow;
+  font-size: 22px;
+} 
+.inside{
+  color: whitesmoke;
+}
+.AboutContainer{
+  background-color: black;
+}
+.nav-item{
+  color : darkgray;
+  font-family: 'Courier New', Courier, monospace;
+}
+.nav-item > .active{
+  color: bisque;
+  
+}
+.Intro{
   text-align: center;
+  color: darkgray;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.projectCards{
+  
+  color: teal;
+}
+.MySummary{
+  font-family: initial;
+  font-size: large;
+  color: darkgray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myPara{
+  color : darkgray
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ContactInfo{
+  color: darkgray;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.myFooter{
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+  
+}
+.list-inline-item{
   color: white;
+  margin-left: 40px;
+ 
 }
 
-.App-link {
-  color: #61dafb;
+
+.icon:hover{
+  color-adjust:  darkgray;
+  transform: scale(1.5);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.float-md-right{
+  margin-right:10%;
 }
+
+.arrow{
+  margin-top: 150px;
+}
+
