@@ -22,7 +22,7 @@ class Contact extends Component{
         event.preventDefault();
         
         var emailjs = require('emailjs-com');
-        emailjs.init("user_ZFK5GmGFK8dvkToEdTp");
+        emailjs.init("user_ZFK5GmGFK8dvkToEdTpAW");
         var params = {
             from_name: this.state.name + '(' + this.state.email + ')',
             to_name: 'ogandara99@gmail.com',
@@ -67,11 +67,18 @@ class Contact extends Component{
         
 
         <header className="masthead" id = "contact">
+            <br>
+            </br>
+            <br>
+            </br>
+            <br>
+            </br>
        
           <div className="container h-100">
               <div className="row h-100 align-items-center">
                 <div className="col-12 text-center inside">
-                <h3 className= 'text-left'> Thanks for going through my website</h3>
+                <h5 className= 'text-left' style= {{color:'white',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }}> Thanks for going through my website and learning a little about me. If you want to say hi
+                you can just send me an email. I am currently looking for new and exciting opportunities. </h5>
                 <Form className= 'text-center text-white' onSubmit={this.mySubmitHandler} >
                     <Form.Group controlId= 'myForm' >
                         <Form.Label>Name</Form.Label>

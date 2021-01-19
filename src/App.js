@@ -1,5 +1,5 @@
 import photo from './my_photo.png';
-import file from './InternResume.pdf'
+import file from './OscarGResume.pdf';
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer.component";
@@ -14,9 +14,9 @@ import {AiFillGithub} from "react-icons/ai";
 // Usage
 function App() {
 
-  
-  
 
+  
+  
   return (
     
     
@@ -24,6 +24,7 @@ function App() {
     
     
     <div className = "main-page">
+      
     <Router>
     <header>
     

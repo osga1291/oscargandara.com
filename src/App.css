@@ -50,6 +50,12 @@ footer{
   color: greenyellow;
   font-size: 22px;
 } 
+.myPara{
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+  
+
+}
 .inside{
   color: whitesmoke;
 }
@@ -111,4 +117,5 @@ footer{
 .arrow{
   margin-top: 150px;
 }
+
 

@@ -25,13 +25,13 @@ class Main extends Component{
                     
                     <Typical
                         
-                        steps={['I am a',1, 'I am a software developer', 2500, 'I am a web developer',2500]}
+                        steps={['I am a',1, 'I am a problem solver',2500, 'I am a persistent learner', 2500, 'I am a avid learner', 2500,'I am a software developer', 2500, ]}
                         loop={Infinity}
                         wrapper="p"
                       />
                     </div>
                    <p className = "Intro">
-                       I am  a programmer based in Denver, CO. I love bulding amazing and creative programs. My passion is learning new technologies and languages.qqqqqqqqqqqqqqqqqqqqqqqqq 
+                       I am  a programmer based in Denver, CO. I love bulding amazing and creative programs.
                        
                    </p>
                 
