@@ -1,5 +1,6 @@
 import photo from './my_photo.png';
-import file from './OscarGResume.pdf';
+import file from './OscarGResume1.pdf';
+
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/Footer.component";
@@ -10,45 +11,41 @@ import About from "./components/About.components"
 import './App.css';
 import Projects from "./components/Projects.components"
 import React ,{ useState, useEffect } from 'react';
+import {Helmet} from 'react-helmet';
 import {AiFillGithub} from "react-icons/ai";
 // Usage
 function App() {
 
 
-  
+  const Title = "Oscar Gandara"
   
   return (
     
     
- 
-    
+  
+
     
     <div className = "main-page">
+
+    <Helmet>
+      <title>{ Title }</title>
+      
+    </Helmet>
       
     <Router>
     <header>
     
 
     <Header resume = {file} />
-    
-   
-
-       
-    
   
-  
-
-
-    
     </header>
     </Router>
+
+   
     
-  
-   <main>
-      <Main/>
-      
-     
-    </main>
+    <div className ="main">
+    <Main/>
+    </div>
     
     
 
@@ -62,20 +59,7 @@ function App() {
       <Projects />
     </div>
 
-    <br>
-    </br>
-    <br>
-    </br>
-    <br>
-    </br>
-    <br></br>
-    <br></br>
-    <br>
-    </br>
-    <br>
-    </br>
-    <br>
-    </br>
+  
 
     <div>
       <Contact />
@@ -85,7 +69,7 @@ function App() {
     
     
    </div>
-   
+  
 
   );
 }

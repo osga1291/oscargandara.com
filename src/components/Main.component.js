@@ -13,17 +13,17 @@ class Main extends Component{
     render(){
         return(
             
-            <header className="masthead" id = "main">
+            <div class="row top top-buffer">
             <div className="container h-100">
                 <div className="row h-100 align-items-center">
                 <div className="col-12 text-center inside">
                     <div className = "text1">
                         
                         <header>
-                            <p>Hi , I am Oscar Gandara and </p>
+                            <p className = "start">Hi , I am Oscar Gandara and </p>
                         </header>
                     
-                    <Typical
+                    <Typical className = "switch"
                         
                         steps={['I am a',1, 'I am a problem solver',2500, 'I am a persistent learner', 2500, 'I am a software developer', 2500, ]}
                         loop={Infinity}
@@ -43,7 +43,7 @@ class Main extends Component{
                             to = "about"
                             spy= {true}
                             smooth = {true}
-                            offset = {0}
+                            offset = {-70}
                             duration = {400}> 
                         <TiArrowDown size="50px"/>
                         
@@ -67,9 +67,8 @@ class Main extends Component{
                 
             </div>
             
+          </div>
             
-           
-            </header>
         
     )}
 }

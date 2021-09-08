@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c48d736.chunk.css",
-    "main.js": "/static/js/main.ba879388.chunk.js",
-    "main.js.map": "/static/js/main.ba879388.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.6b3488d1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.6b3488d1.js.map",
-    "static/css/2.11829350.chunk.css": "/static/css/2.11829350.chunk.css",
-    "static/js/2.e48b60e6.chunk.js": "/static/js/2.e48b60e6.chunk.js",
-    "static/js/2.e48b60e6.chunk.js.map": "/static/js/2.e48b60e6.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e05bba44243892c04b72df5595d95b9b.js": "/precache-manifest.e05bba44243892c04b72df5595d95b9b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.11829350.chunk.css.map": "/static/css/2.11829350.chunk.css.map",
-    "static/css/main.0c48d736.chunk.css.map": "/static/css/main.0c48d736.chunk.css.map",
-    "static/js/2.e48b60e6.chunk.js.LICENSE.txt": "/static/js/2.e48b60e6.chunk.js.LICENSE.txt",
-    "static/media/my_photo.png": "/static/media/my_photo.2d8d9db9.png"
+    "main.css": "/osga1291/oscargandara.comstatic/css/main.27fd15f6.chunk.css",
+    "main.js": "/osga1291/oscargandara.comstatic/js/main.1ddb5056.chunk.js",
+    "main.js.map": "/osga1291/oscargandara.comstatic/js/main.1ddb5056.chunk.js.map",
+    "runtime-main.js": "/osga1291/oscargandara.comstatic/js/runtime-main.588bb4b9.js",
+    "runtime-main.js.map": "/osga1291/oscargandara.comstatic/js/runtime-main.588bb4b9.js.map",
+    "static/css/2.63f31f8d.chunk.css": "/osga1291/oscargandara.comstatic/css/2.63f31f8d.chunk.css",
+    "static/js/2.9bd0fb06.chunk.js": "/osga1291/oscargandara.comstatic/js/2.9bd0fb06.chunk.js",
+    "static/js/2.9bd0fb06.chunk.js.map": "/osga1291/oscargandara.comstatic/js/2.9bd0fb06.chunk.js.map",
+    "index.html": "/osga1291/oscargandara.comindex.html",
+    "precache-manifest.5b3e32c3a9ea67343e3f1212a588ae2a.js": "/osga1291/oscargandara.comprecache-manifest.5b3e32c3a9ea67343e3f1212a588ae2a.js",
+    "service-worker.js": "/osga1291/oscargandara.comservice-worker.js",
+    "static/css/2.63f31f8d.chunk.css.map": "/osga1291/oscargandara.comstatic/css/2.63f31f8d.chunk.css.map",
+    "static/css/main.27fd15f6.chunk.css.map": "/osga1291/oscargandara.comstatic/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.9bd0fb06.chunk.js.LICENSE.txt": "/osga1291/oscargandara.comstatic/js/2.9bd0fb06.chunk.js.LICENSE.txt",
+    "static/media/OscarGResume.pdf": "/osga1291/oscargandara.comstatic/media/OscarGResume.0484cbe7.pdf",
+    "static/media/my_photo.png": "/osga1291/oscargandara.comstatic/media/my_photo.2d8d9db9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b3488d1.js",
-    "static/css/2.11829350.chunk.css",
-    "static/js/2.e48b60e6.chunk.js",
-    "static/css/main.0c48d736.chunk.css",
-    "static/js/main.ba879388.chunk.js"
+    "static/js/runtime-main.588bb4b9.js",
+    "static/css/2.63f31f8d.chunk.css",
+    "static/js/2.9bd0fb06.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.1ddb5056.chunk.js"
   ]
 }

@@ -11,24 +11,24 @@ class About extends Component{
     render(){
         return (
           
-          <header className="masthead" id = "about">
-          <div className="container h-100">
+          <div className = "about">
+          <div className="container h-100" >
             
               <div className="row h-100 align-items-center">
               <Container>
                 <Row >
                 <Col md={{ span: 0, offset :0}}>
-                <img src={this.props.pic} class="img-thumbnail" alt="Me" width ="200" height = "200"/>
+                <img src={this.props.pic} className="img-thumbnail" alt="Me" width ="200" height = "200"/>
                
                 <div> 
                   <br>
                   </br>
-        <p style= {{color:'white',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }} > Technologies I Love: </p>
+        <p style= {{color:'black',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }} > Technologies I Love: </p>
 
                   
 
                   
-                  <ul className = "list-inline" style= {{color:'white',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }}>
+                  <ul className = "list-inline" style= {{color:'black',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }}>
                   <li className = "list-inline-item">
                     <VscDebugStart></VscDebugStart>
                     Python
@@ -64,8 +64,11 @@ class About extends Component{
                   
                 </div>
                 </Col>
+                
                 <Col md={{ span: 0, offset :0}}>
-                <div className = "myPara" >
+                <div className = "Container">
+
+                <div className = "myPara">
                   
                   <p>About Me</p>
                   <br></br>
@@ -95,7 +98,7 @@ class About extends Component{
               
               
               
-      
+              </div>
               </Col>
         
               
@@ -106,7 +109,7 @@ class About extends Component{
               </div>
               
             
-            </header>
+            </div>
       
      
     

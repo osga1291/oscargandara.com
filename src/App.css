@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
-
 html {
   scroll-behavior: smooth;
 }
+body{
+  height: 200%;
+  background-color: black;
+}
+p{
+  color: darkgray;
+  font-family:'Courier New', Courier, monospace;
+}
+
 .wrapper{
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 160px; /* Set the width of the sidebar */
@@ -12,110 +19,66 @@ html {
   left: 0;
   background-color:gray; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  /* padding-top: 20px; */
 
 }
 
-.main-page{
-  background-color: black;
-
-}
-.about-page{
-  background-color: black;
-}
-.wrapper nav{
-  color: whitesmoke;
-}
-.active :hover {
-  color :red;
-}
-
-.Paragraph{
-  color : red;
-}
-
-footer{
-  color:red;
-}
-
-.masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.text1{
-  font-family: 'Courier New', Courier, monospace;
-  color: greenyellow;
-  font-size: 22px;
-} 
-.myPara{
-  font-family: 'Courier New', Courier, monospace;
-  color: whitesmoke;
-  
-
-}
-.inside{
-  color: whitesmoke;
-}
-.AboutContainer{
-  background-color: black;
-}
-.nav-item{
-  color : darkgray;
-  font-family: 'Courier New', Courier, monospace;
-}
-.nav-item > .active{
-  color: bisque;
+.top-buffer { 
+  margin: 250px;
+ 
+  display: flex;
   
 }
-.Intro{
-  text-align: center;
-  color: darkgray;
-  font-style: oblique;
-  font-family: Arial, Helvetica, sans-serif;
+.about{
+
+  margin-top: 0px;
+
 }
 .projectCards{
   
   color: teal;
 }
-.MySummary{
-  font-family: initial;
-  font-size: large;
+.arrow{
+  margin-top: 200px;
+}
+.contact{
+  margin-top: 400px;
+}
+.container{
+  margin-bottom: 200px;
+}
+.start{
+
+  text-align: center;
   color: darkgray;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+  
+}
+.switch{
+  font-family: 'Courier New', Courier, monospace;
+  color: greenyellow;
+  font-size: 22px;
 }
 
-.myPara{
-  color : darkgray
-}
-.ContactInfo{
-  color: darkgray;
-}
 .myFooter{
   align-items: center;
-  
-  
-}
-.list-inline-item{
-  color: white;
-  margin-left: 40px;
- 
+   
 }
 
+.list-inline-item{
+  color: white;
+  margin-left: 40px; 
+ 
+}
 
 .icon:hover{
   color-adjust:  darkgray;
   transform: scale(1.5);
   
 }
-
-.float-md-right{
-  margin-right:10%;
+.nav-item > .active{
+  color: bisque;
+  
 }
-
-.arrow{
-  margin-top: 150px;
-}
-
-

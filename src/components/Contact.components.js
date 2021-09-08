@@ -66,16 +66,10 @@ class Contact extends Component{
         return (
         
 
-        <header className="masthead" id = "contact">
-            <br>
-            </br>
-            <br>
-            </br>
-            <br>
-            </br>
-       
-          <div className="container h-100">
-              <div className="row h-100 align-items-center">
+        <div className="contact">
+            
+         <div className="container">
+              <div className="row align-items-center">
                 <div className="col-12 text-center inside">
                 <h5 className= 'text-left' style= {{color:'white',fontFamily:'Courier New, Courier, monospace',fontSize: "medium" }}> Thanks for going through my website and learning a little about me. If you want to say hi
                 you can just send me an email. I am currently looking for new and exciting opportunities. </h5>
@@ -101,8 +95,8 @@ class Contact extends Component{
             </div>
             </div>
             </div>
+            </div>
         
-        </header>
         
         
             )}

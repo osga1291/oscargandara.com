@@ -24,33 +24,33 @@ class Header extends Component{
                 
                 <Nav className="ml-auto ">
                 
-                <div className = "nav-item"> 
-                     
-                        
-                <Link
-                    id = "aboutLink"
+                <div className = "nav-item" > 
+                  
+                      
+                <Link 
+                    id = "homeLink"
                     activeClass=""
                     to = "main"
                     spy= {true}
                     smooth = {true}
-                    offset = {0}
+                    offset = {-150}
                     duration = {400}> Home </Link>
 
                 
 
 
                 <Link
-                    id = "homeLink"
+                    id = "aboutLink"
                     activeClass=""
                     to = "about"
                     spy= {true}
                     smooth = {true}
-                    offset = {0}
+                    offset = {-100}
                     duration = {400}> About </Link>
 
 
                 <Link
-                    id = "homeLink"
+                    id = "projectLink"
                     activeClass=""
                     to = "projects"
                     spy= {true}
@@ -59,12 +59,12 @@ class Header extends Component{
                     duration = {400}> Projects </Link>
 
                 <Link
-                    id = "homeLink"
+                    id = "contactLink"
                     activeClass=""
                     to = "contact"
                     spy= {true}
                     smooth = {true}
-                    offset = {0}
+                    offset = {-50}
                     duration = {400}> Contact </Link>    
                 
                 <Route>
