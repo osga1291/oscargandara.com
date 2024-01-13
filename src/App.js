@@ -1,5 +1,5 @@
 import photo from './my_photo.png';
-import file from './OscarGResume1.pdf';
+import file from './Oscar_Gandara_Resume_website.pdf';
 
 import {BrowserRouter as Router, Route} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
